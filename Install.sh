@@ -7,8 +7,6 @@ if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
 fi
 
 WorkDir=$(pwd)
-#module load CMake/3.29.3-GCCcore-13.3.0
-#module load Python/3.12.3-GCCcore-13.3.0
 
 if [[ -d "${WorkDir}/Nuclear_Techniques_pyenv" ]]; then
     read -r -p "Pyenv folder already seems to exist. Continue anyway? (y/N): " choice
