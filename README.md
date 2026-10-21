@@ -2,7 +2,23 @@
 
 Software components of the York Nuclear Techniques course for research postgraduates.
 
-This repository will clone automatically into the Jupyter environment for the course.
+# Setup
+
+Before running the notebooks for the first time, you will need to do some brief setup tasks.
+
+From this directory in a terminal, execute
+
+`source Install.sh`
+
+This will setup a new virtual environment and install some required modules.
+
+After doing this **once**, you can subsequently use
+
+`source SetEnv.sh` to reload the installed environment.
+
+Once this is setup, you can run the notebooks via:
+
+`root --notebook`
 
 # Authors
 
