@@ -20,6 +20,10 @@ Once this is setup, you can run the notebooks via:
 
 `root --notebook`
 
+# Snippets
+
+The Snippets directory contains a series of short ROOT macros. These cover some common tasks and things you might want to do with ROOT. Note that some require input files from the Nuclear Techniques Google Drive. Please see the README in the Snippets directory.
+
 # Authors
 
 Notebooks, scripts and resources in this directory were created by:
