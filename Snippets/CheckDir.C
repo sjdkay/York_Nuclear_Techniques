@@ -5,6 +5,8 @@
 
 void CheckDir(){
 
+  // Note - You may need to adjust the ExpectedDir path to get a smiley face :)
+  // /home/$USER is actually prefixed by other material. Try `pwd` from your terminal in this directory and see how to modify it
   TString CurrentDir=gSystem->WorkingDirectory(); // Print the directory you've run this script from
   TString ExpectedDir="/home/$USER/Work/York_Nuclear_Techniques/Snippets/"; // Construct the expected directory path
   gSystem->ExpandPathName(ExpectedDir); // Replace $USER with your username

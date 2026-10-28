@@ -26,6 +26,9 @@ void TreeCheck(){
     File->Close();
     exit(3);
   }
+
+  cout << "Checking the events tree in Test.root" << endl;
+  cout << "The file and tree to check are hard-coded in this macro, modify if desired!\n" << endl;
   
   // Checks done, print the number of entries in our tree
   Long64_t nEntries = tree->GetEntries();
