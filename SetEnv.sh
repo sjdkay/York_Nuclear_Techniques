@@ -7,8 +7,8 @@ if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
 fi
 
 WorkDir=$(pwd)
-module load ROOT/6.40.02-foss-2025b
 source ${WorkDir}/Nuclear_Techniques_pyenv/bin/activate
+module load ROOT/6.40.02-foss-2025b
 
 echo "Environment set. You can now run the notebooks."
 echo "Consider adding the commands above to your bashrc file :)"
